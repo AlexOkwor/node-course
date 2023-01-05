@@ -2,8 +2,11 @@ const express = require('express');
 
 const app = express();
 
+//app.get('/', (req,res)=>{
+   // res.send('Hello World');
+//});
 app.get('/', (req,res)=>{
-    res.send('Hello World');
+    res.send('Welcome to Dream Project Platform');
 });
 
 app.get('/api/courses', (req, res)=>{
